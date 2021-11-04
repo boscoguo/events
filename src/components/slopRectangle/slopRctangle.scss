@@ -1,0 +1,13 @@
+@import "../../index.scss";
+.slop-rectangle {
+  height: 43px;
+  color: #fff;
+  @include flex(center, center); 
+  transform: skewX(-18deg);
+  border-radius: 3px;
+  padding: 0 20px;
+  p {
+    font-weight: 600;
+    transform: skewX(18deg);
+  }
+}

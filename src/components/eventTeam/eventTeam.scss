@@ -1,0 +1,25 @@
+@import "../../index.scss";
+.team {
+  display:flex;
+  align-items: center;
+  .slop-rectangle {
+    overflow: hidden;
+  }
+  &__wrapper {
+    @include flex(space-around, center);
+    img {
+      width: 65px;
+      height: 80px;
+      transform: skewX(15deg);
+      margin-right:10px;
+    }
+    p {
+      min-width: 124px;
+    }
+  }
+  &__score {
+    padding-left:20px;
+    font-size: 24px;
+    font-weight:700;
+  }
+}

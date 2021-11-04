@@ -1,0 +1,83 @@
+@import "../../index.scss";
+.champions {
+  position: relative;
+  &__colors {
+    position: absolute;
+    z-index: 9;
+  }
+  &__colors-color {
+    position: absolute;
+  }
+  &__colors-1 {
+    top: -20px;
+    left: 15px;
+    .slop-rectangle {
+      opacity: .7;
+    }
+  }
+  &__colors-2 {
+    top: 5px;
+    left: -45px;
+    .slop-rectangle {
+      width: 30px;
+      height: 30px;
+      padding:0;
+    }
+  }
+  &__colors-3 {
+    top: -35px;
+    left: 13px;
+    .slop-rectangle {
+      width: 10px;
+      height: 10px;
+      padding:0;
+    }
+  }
+  &__colors-4 {
+    top: 50px;
+    left: -25px;
+    .slop-rectangle {
+      width: 22px;
+      height: 22px;
+      padding:0;
+    }
+  }
+  &__colors-0 {
+    top: 80px;
+    left: -41px;
+    .slop-rectangle {
+      width: 10px;
+      height: 10px;
+      padding:0;
+    }
+  }
+  &__league {
+    .slop-rectangle {
+      height: unset;
+      width: 220px;
+      &__children {
+        padding: 35px;
+      }
+    }
+  }
+  &__arena {
+    position: absolute;
+    left: -50%;
+    bottom: -42px;
+    .slop-rectangle {
+      width: 130px;
+      height: 30px;
+      padding: 0 10px;
+    }
+    &-wrapper {
+      @include flex(center, center);
+      .champions__arena-wrapper-location {
+        width: 20px;
+      }
+    }
+  }
+  img {
+    transform: skewX(18deg);
+    width: 100%;
+  }
+}
