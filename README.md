@@ -11,6 +11,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [x] create the `EventDetail.tsx` component to display event details.
 - [x] create the `EventTeams.tsx` component to display the teams information.
 - [x] Add unit test for all components by using react-testing-library.
+
+## Final effect
+![ligr](https://user-images.githubusercontent.com/20954764/140613509-f91211a5-8e9c-4bc8-961f-47da5d182220.PNG)
+
+![test-result](https://user-images.githubusercontent.com/20954764/140613577-47f27caf-ea3b-42c5-a9b6-faa043f738b0.PNG)
+
+
 ## After clone the project
 
 In the project directory, please run:
