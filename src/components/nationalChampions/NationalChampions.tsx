@@ -11,7 +11,7 @@ const NationalChampions = () => {
     <div className="champions">
       <div className="champions__colors">
         {colorsArr.map((color, index) => (
-          <div className={`champions__colors-color champions__colors-${index}`} key={index}>
+          <div className={`champions__colors-color champions__colors-${index}`} key={index} data-testid="champions-color-element">
             <SlopRectangle backgroundColor={color}>
               <></>
             </SlopRectangle>

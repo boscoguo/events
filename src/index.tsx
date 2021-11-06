@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
-// import { store } from './store';
 import "./index.scss";
-// import Container from "./components/container";
 import { Page } from "./pages"
 import reportWebVitals from "./reportWebVitals";
 import store from "./store/store";
@@ -11,7 +9,6 @@ import store from "./store/store";
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      {/* <Container /> */}
       <Page />
     </Provider>
   </React.StrictMode>,

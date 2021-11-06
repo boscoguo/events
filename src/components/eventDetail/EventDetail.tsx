@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useSelector } from "react-redux";
 import { RootStore } from "../../store/store";
 import { SlopRectangle } from "../../components/slopRectangle";
@@ -22,18 +22,20 @@ const EventDetail = () => {
           <div className="event-detail__teams__wrapper">
             {loading ? (
               "Loading..."
-            ) : (
+            ) : ( 
               <>
                 <EventTeam
                   teamName={events?.home_team.name}
                   score={events?.home_team.score}
                   logo={kings}
+                  alt={kings}
                 />
                 <div className="event-detail__teams__wrapper-slash"></div>
                 <EventTeam
                   teamName={events?.away_team.name}
                   score={events?.away_team.score}
                   logo={sharks}
+                  alt={sharks}
                 />
               </>
             )}

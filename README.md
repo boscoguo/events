@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Features
+- [x] Add eslint, prettier, typescript, pre-commit hooks dependencies to achieve a better code style and elegent code format.
+- [x] add redux for the project as a state management tool.
+- [x] add redux thunk middleware in the project.
+- [x] creat the `SlopRetangel.tsx` component as a common ui component.
+- [x] create the `NationalChampions.tsx` component to display the league logo part.
+- [x] create the `EventDetail.tsx` component to display event details.
+- [x] create the `EventTeams.tsx` component to display the teams information.
+- [x] Add unit test for all components by using react-testing-library.
 ## After clone the project
 
 In the project directory, please run:
